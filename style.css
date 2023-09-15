@@ -1,0 +1,330 @@
+@keyframes moveRight {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(85% );
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes moveLeft {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: calc(50% );
+    }
+    100% {
+        left: 0;
+    }
+}
+.mainc{width: 100vw;
+overflow: hidden;
+}
+.an1 {
+    color:white;
+    font-size:large;
+
+    position: relative;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.move-right {
+    animation-name: moveRight;
+}
+
+.move-left {
+    animation-name: moveLeft;
+}
+.announcemmnt{
+    background-color: #4ab977;
+    height: 50px;
+    width: 100%;
+}
+.pageheader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.media{
+    max-width: 30px;
+    height: 30px;
+}
+.logo1{
+    max-width: 100%;
+    height: 100px;
+}
+.cart1{
+    max-width: 30px;
+    height: 30px;
+}
+.socialmedia {
+    gap: 20px; display: flex;
+   
+}
+.cart{
+    gap: 20px; display: flex;
+
+}
+li{
+    text-decoration: none;
+    /* color: #4ab977; */
+    list-style: none;
+   
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+}
+.abc:hover{
+    font-weight:1000;
+    ;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mainpic{
+  
+    width: 500px;
+   
+}
+.mainpic1{
+    position: relative;
+    overflow: hidden;
+    
+}
+.mainpic:hover{
+    transform: scale(1.5);
+
+}
+.pics{
+    width: 120px;
+    height: 120px;
+}
+.pics:hover{
+    cursor: pointer;
+}
+.tags{
+    display: flex;
+    gap: 20px;
+
+}
+.tag1{
+    background-color: yellow;
+    width: auto;
+    border:3px solid black;
+    
+}
+.tag2{
+    background-color: yellow;
+    width: auto;
+    border:3px solid black;
+    
+}.tag3{
+    background-color: yellow;
+    width: auto;
+    border:3px solid black;
+    
+}
+.para{color: rgba(87, 188, 188, 0.712);}
+.star{display: flex;
+align-items: center;
+gap: 10px;}
+
+.mrp
+{display: flex;
+align-items: center;}
+
+.net{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pm{
+    background-color: beige;
+    width: 30px;
+    height: 30px;
+}
+.buy{
+    display: flex;
+    gap: 10px;
+}
+.bs{height: 40px;
+width: 300px;
+background-color: rgb(30, 154, 154);
+border-radius: 10px;
+color: #ffffff;
+}
+.bs:hover{cursor: pointer;}
+.parag{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    max-width: 40%;
+}
+.hr1{
+    color: #4ab977;
+}
+.hrtext{color: blue;
+text-decoration: none;
+align-items: center;
+margin: 350px;
+font-size: 25px
+
+;
+}
+.like{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.cards{display: flex;
+justify-content: space-evenly;}
+
+
+.card{width:15%;
+    /* background-color: rgb(241, 242, 243); */
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+    height:401px;
+    box-shadow: 0px 0px 20px rgb(186, 183, 183);
+}
+
+.cardimg{
+    width: 230px;
+    height: 170px;
+}
+.cardimg:hover{
+cursor: pointer;
+ background-image: url(https://phool.co/cdn/shop/products/IMG_4690_460x.jpg?v=1603096120);
+ 
+}
+.icard{display: flex
+    ;
+align-items: center;}
+.cardbutton{
+
+    width: 200px;
+    height: 40px;
+    border-color: 10px solid rgb(4, 25, 1);
+    background-color: transparent;
+    font-size: 15px;
+    
+}
+.cardbutton:hover{
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+.center{
+    display: flex;
+    text-align: center;
+}
+.lastbtn{
+    background-color: rgb(87, 152, 152);
+color: black;
+width: 110px;
+border-color: transparent;
+height: 40px;
+}
+
+.email{
+    width: 330px;
+    height: 35px;
+    border-color: transparent;
+
+}
+.lastbtn:hover{
+    color: #ffffff;
+}
+.lastpart{
+    max-width: 450px;
+    margin: 5%;
+}
+
+.wrap{
+    border: 2px solid black;
+    display: flex;
+    justify-content: first baseline;
+}
+.ptag{
+    font-size: 25px;
+}
+.about{display: flex;
+justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.links, .adress, .policies, .social{
+display: flex;
+flex-direction: column;
+color: #ffffff;
+padding: 100px;
+gap: 10px;
+
+}
+a{color: #ffffff;}
+.adress{
+    max-width: 450px;
+}
+.about1{height: 600px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+background-color:rgb(21,119,184);}
+.lastlogo{
+    height: 200px;
+    width: 200px;padding: 10px;
+    
+}
+.links:hover{
+  font-size: larger;  
+}
+.adress:hover{
+    font-size: larger;  
+  }
+  .policies:hover{
+    font-size: larger;  
+  }
+  nav{
+    
+    
+    z-index: 100000;
+    align-items: center;
+    /* overflow: hidden; */
+    position: fixed !important;
+    bottom: 0 !important; 
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    width: 99%;
+  }
+  .navimg{
+    height: 100px;
+    width: 100px;
+  }
+  .navbtn{width: 500px;
+background-color: #286d44;
+color: #ffffff;
+height: 50px;
+border-radius: 30px;
+}
+
+/* .cardimg:hover{
+    width: 00px;
+} */
